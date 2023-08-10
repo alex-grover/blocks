@@ -1,0 +1,27 @@
+{
+  "name": "blocks",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A set of building blocks for Typescript projects.",
+  "engines": {
+    "node": "18",
+    "pnpm": "8"
+  },
+  "scripts": {
+    "prepare": "is-ci || husky install"
+  },
+  "keywords": [
+    "typescript",
+    "monorepo",
+    "pnpm"
+  ],
+  "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "husky": "^8.0.3"
+  },
+  "dependencies": {
+    "is-ci": "^3.0.1"
+  }
+}
