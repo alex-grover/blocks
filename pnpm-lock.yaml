@@ -15,6 +15,12 @@ importers:
         specifier: ^8.0.3
         version: 8.0.3
 
+  packages/prettier-config:
+    devDependencies:
+      prettier:
+        specifier: 3.0.1
+        version: 3.0.1
+
 packages:
 
   /@babel/code-frame@7.22.10:
@@ -1324,6 +1330,12 @@ packages:
   /prettier@2.8.8:
     resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
+  /prettier@3.0.1:
+    resolution: {integrity: sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
