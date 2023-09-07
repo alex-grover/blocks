@@ -1,5 +1,11 @@
 # @alex-grover/eslint-config
 
+## 0.0.3
+
+### Patch Changes
+
+- b82ce24: Add eslint-plugin-import order configuration
+
 ## 0.0.2
 
 ### Patch Changes
