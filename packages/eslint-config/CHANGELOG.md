@@ -1,5 +1,11 @@
 # @alex-grover/eslint-config
 
+## 0.0.4
+
+### Patch Changes
+
+- d27cf6d: Only enable TS rules on TS files
+
 ## 0.0.3
 
 ### Patch Changes
