@@ -1,15 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc",
-  "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/strict-type-checked",
-    "plugin:@typescript-eslint/stylistic-type-checked",
-    "plugin:import/recommended",
-    "plugin:import/typescript",
-    "prettier"
-  ],
+  "extends": ["eslint:recommended", "plugin:import/recommended", "prettier"],
   "rules": {
-    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
     "import/order": [
       "error",
       {
@@ -28,17 +20,33 @@
       }
     ]
   },
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
-  "settings": {
-    "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"]
-    },
-    "import/resolver": {
-      "typescript": {
-        "alwaysTryTypes": true
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": [
+        "plugin:@typescript-eslint/strict-type-checked",
+        "plugin:@typescript-eslint/stylistic-type-checked",
+        "plugin:import/typescript"
+      ],
+      "rules": {
+        "@typescript-eslint/consistent-type-definitions": ["error", "type"]
       },
-      "node": true
+      "parser": "@typescript-eslint/parser",
+      "plugins": ["@typescript-eslint"],
+      "parserOptions": {
+        "project": true
+      },
+      "settings": {
+        "import/parsers": {
+          "@typescript-eslint/parser": [".ts", ".tsx"]
+        },
+        "import/resolver": {
+          "typescript": {
+            "alwaysTryTypes": true
+          },
+          "node": true
+        }
+      }
     }
-  }
+  ]
 }

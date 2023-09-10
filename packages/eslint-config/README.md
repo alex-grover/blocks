@@ -15,10 +15,7 @@ Add the following entry to your `package.json`:
 ```json
 {
   "eslintConfig": {
-    "extends": "@alex-grover",
-    "parserOptions": {
-      "project": true
-    }
+    "extends": "@alex-grover"
   }
 }
 ```
