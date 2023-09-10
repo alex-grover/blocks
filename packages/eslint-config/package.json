@@ -31,5 +31,8 @@
     "eslint-import-resolver-typescript": "*",
     "eslint-plugin-import": "*"
   },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown"
+  },
   "prettier": "@alex-grover/prettier-config"
 }
