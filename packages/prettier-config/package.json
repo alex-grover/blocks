@@ -19,5 +19,8 @@
   "peerDependencies": {
     "prettier": "*"
   },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown"
+  },
   "prettier": "./index.json"
 }
