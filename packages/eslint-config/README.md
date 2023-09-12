@@ -5,7 +5,7 @@ A shareable [ESLint](https://eslint.org) configuration.
 ## Installation
 
 ```sh
-pnpm i -D eslint @alex-grover/eslint-config @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-import eslint-import-resolver-typescript
+pnpm i -D eslint @alex-grover/eslint-config @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-import eslint-import-resolver-typescript eslint-plugin-css-modules
 ```
 
 ## Usage
