@@ -1,5 +1,11 @@
 # @alex-grover/eslint-config
 
+## 0.0.5
+
+### Patch Changes
+
+- 3de327e: Add eslint-plugin-css-modules
+
 ## 0.0.4
 
 ### Patch Changes
