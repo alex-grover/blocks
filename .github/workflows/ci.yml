@@ -19,3 +19,4 @@ jobs:
           cache: "pnpm"
       - run: pnpm install
       - run: pnpm run -r check:format
+      - run: pnpm run -r check:styles
