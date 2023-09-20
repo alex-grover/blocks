@@ -1,0 +1,37 @@
+{
+  "name": "@alex-grover/styles",
+  "version": "0.0.0",
+  "description": "Opinionated base stylesheets.",
+  "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
+  "license": "ISC",
+  "keywords": [
+    "css",
+    "css-reset"
+  ],
+  "scripts": {
+    "check:format": "prettier --check .",
+    "fix:format": "prettier --write .",
+    "check:styles": "stylelint --cache ./**/*.css",
+    "fix:styles": "stylelint --fix --cache ./**/*.css"
+  },
+  "devDependencies": {
+    "@alex-grover/prettier-config": "workspace:^",
+    "@alex-grover/stylelint-config": "workspace:^",
+    "prettier": "3.0.1",
+    "stylelint": "^15.10.3",
+    "stylelint-config-css-modules": "^4.3.0",
+    "stylelint-config-recess-order": "^4.3.0",
+    "stylelint-config-standard": "^34.0.0"
+  },
+  "lint-staged": {
+    "*.css": [
+      "stylelint --fix",
+      "prettier --write"
+    ],
+    "*.!(css)": "prettier --write --ignore-unknown"
+  },
+  "prettier": "@alex-grover/prettier-config",
+  "stylelint": {
+    "extends": "@alex-grover/stylelint-config"
+  }
+}

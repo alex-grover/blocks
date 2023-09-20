@@ -1,0 +1,4 @@
+/* https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/ */
+@custom-media --tablet-portrait-up (min-width: 600px);
+@custom-media --tablet-landscape-up (min-width: 900px);
+@custom-media --desktop-up (min-width: 1200px);
