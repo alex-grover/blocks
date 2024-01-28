@@ -2,7 +2,7 @@ name: release
 
 on:
   push:
-    branches: [main]
+    branches: [main, tailwind]
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
@@ -21,8 +21,8 @@ jobs:
       - run: pnpm install
       - uses: changesets/action@v1
         with:
-          version: pnpm changeset version
-          publish: pnpm changeset publish
+          version: pnpm changeset version --snapshot tailwind
+          publish: pnpm changeset publish --tag tailwind
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
