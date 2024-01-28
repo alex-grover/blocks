@@ -1,5 +1,11 @@
 # @alex-grover/prettier-config
 
+## 0.0.0-tailwind-20240128173557
+
+### Minor Changes
+
+- a11d1c0: Replace CSS modules with Tailwind
+
 ## 0.0.2
 
 ### Patch Changes

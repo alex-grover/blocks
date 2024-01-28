@@ -1,6 +1,6 @@
 {
   "name": "@alex-grover/eslint-config",
-  "version": "0.0.5",
+  "version": "0.0.0-tailwind-20240128173557",
   "description": "A shareable ESLint configuration.",
   "main": "index.json",
   "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
