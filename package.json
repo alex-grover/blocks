@@ -16,9 +16,7 @@
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "husky": "^8.0.3",
+    "is-ci": "^3.0.1",
     "lint-staged": "^14.0.1"
-  },
-  "dependencies": {
-    "is-ci": "^3.0.1"
   }
 }
