@@ -5,7 +5,7 @@ A shareable [Prettier](https://prettier.io) configuration.
 ## Installation
 
 ```sh
-pnpm i -DE prettier @alex-grover/prettier-config prettier-plugin-tailwindcss
+pnpm i -DE prettier @alex-grover/prettier-config@tailwind prettier-plugin-tailwindcss
 ```
 
 ## Usage
