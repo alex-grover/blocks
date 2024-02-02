@@ -1,5 +1,11 @@
 # @alex-grover/eslint-config
 
+## 0.0.0-tailwind-20240202031521
+
+### Patch Changes
+
+- Remove eslint-config-prettier
+
 ## 0.0.0-tailwind-20240128174706
 
 ### Minor Changes
