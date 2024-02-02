@@ -3,7 +3,6 @@
   "extends": [
     "eslint:recommended",
     "plugin:import/recommended",
-    "prettier",
     "plugin:css-modules/recommended"
   ],
   "plugins": ["css-modules"],
