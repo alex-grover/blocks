@@ -6,6 +6,12 @@
 
 - 05a0d04: Replace CSS modules with Tailwind
 
+## 0.0.6
+
+### Patch Changes
+
+- 6aff792: Remove eslint-config-prettier
+
 ## 0.0.5
 
 ### Patch Changes

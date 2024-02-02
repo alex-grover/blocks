@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc",
-  "extends": ["eslint:recommended", "plugin:import/recommended", "prettier"],
+  "extends": ["eslint:recommended", "plugin:import/recommended"],
   "rules": {
     "import/order": [
       "error",
