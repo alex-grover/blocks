@@ -1,5 +1,11 @@
 # @alex-grover/eslint-config
 
+## 0.0.6
+
+### Patch Changes
+
+- 6aff792: Remove eslint-config-prettier
+
 ## 0.0.5
 
 ### Patch Changes
