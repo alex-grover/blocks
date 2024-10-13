@@ -15,7 +15,8 @@ jobs:
       - run: bun install
       - uses: changesets/action@v1
         with:
-          publish: bun changeset publish
+          version: bun run version
+          publish: bun run publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -5,10 +5,7 @@
   "main": "index.json",
   "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
   "license": "ISC",
-  "keywords": [
-    "biome",
-    "biome-config"
-  ],
+  "keywords": ["biome", "biome-config"],
   "devDependencies": {
     "@biomejs/biome": "1.9.3"
   },

@@ -6,7 +6,9 @@
     "check": "biome check .",
     "fix": "biome check --write .",
     "pre-commit": "biome check --write --no-errors-on-unmatched --colors=off",
-    "ci": "biome ci ."
+    "ci": "biome ci .",
+    "version": "changeset version && bun fix",
+    "publish": "changeset publish"
   },
   "keywords": ["typescript", "monorepo", "bun"],
   "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
