@@ -10,13 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 8
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: "pnpm"
-      - run: pnpm install
-      - run: pnpm run -r check:format
-      - run: pnpm run -r check:styles
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install
+      - run: bun run ci
