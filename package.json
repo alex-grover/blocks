@@ -3,22 +3,19 @@
   "private": true,
   "description": "A set of building blocks for Typescript projects.",
   "scripts": {
-    "prepare": "is-ci || husky install"
+    "check": "biome check .",
+    "fix": "biome check --write .",
+    "pre-commit": "biome check --write --no-errors-on-unmatched --colors=off",
+    "ci": "biome ci ."
   },
-  "keywords": [
-    "typescript",
-    "monorepo",
-    "bun"
-  ],
+  "keywords": ["typescript", "monorepo", "bun"],
   "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
   "license": "ISC",
   "devDependencies": {
-    "@changesets/cli": "^2.26.2",
-    "husky": "^8.0.3",
-    "is-ci": "^3.0.1",
-    "lint-staged": "^14.0.1"
+    "@changesets/cli": "^2.26.2"
   },
-  "workspaces": [
-    "packages/*"
-  ]
+  "workspaces": ["packages/*"],
+  "dependencies": {
+    "lefthook": "^1.7.18"
+  }
 }
