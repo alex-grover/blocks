@@ -7,8 +7,8 @@ Opinionated base stylesheets.
 To install in a Next.js project, including replacing the builtin PostCSS config:
 
 ```sh
-pnpm i @alex-grover/styles
-pnpm i -D postcss-flexbugs-fixes postcss-preset-env @csstools/postcss-global-data
+bun install @alex-grover/styles
+bun install --dev postcss-flexbugs-fixes postcss-preset-env @csstools/postcss-global-data
 ```
 
 ## Usage

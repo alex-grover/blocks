@@ -1,6 +1,5 @@
 {
   "name": "blocks",
-  "packageManager": "pnpm@8.7.4",
   "private": true,
   "description": "A set of building blocks for Typescript projects.",
   "scripts": {
@@ -9,7 +8,7 @@
   "keywords": [
     "typescript",
     "monorepo",
-    "pnpm"
+    "bun"
   ],
   "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
   "license": "ISC",
@@ -18,5 +17,8 @@
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
     "lint-staged": "^14.0.1"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

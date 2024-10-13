@@ -5,7 +5,7 @@ A shareable [Prettier](https://prettier.io) configuration.
 ## Installation
 
 ```sh
-pnpm i -DE prettier @alex-grover/prettier-config
+bun install --dev --exact prettier @alex-grover/prettier-config
 ```
 
 ## Usage
