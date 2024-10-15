@@ -18,7 +18,15 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "recommended": true,
+      "correctness": {
+        "noUnusedImports": {
+          "level": "error"
+        },
+        "noUnusedVariables": {
+          "level": "error"
+        }
+      }
     }
   },
   "javascript": {
@@ -37,5 +45,19 @@
     "linter": {
       "enabled": true
     }
-  }
+  },
+  "overrides": [
+    {
+      "include": ["*.tsx"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "useHookAtTopLevel": {
+              "level": "error"
+            }
+          }
+        }
+      }
+    }
+  ]
 }

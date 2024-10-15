@@ -14,10 +14,9 @@
   "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
   "license": "ISC",
   "devDependencies": {
-    "@changesets/cli": "^2.27.9"
-  },
-  "workspaces": ["packages/*"],
-  "dependencies": {
+    "@biomejs/biome": "1.9.3",
+    "@changesets/cli": "^2.27.9",
     "lefthook": "^1.7.18"
-  }
+  },
+  "workspaces": ["packages/*"]
 }
