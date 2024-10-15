@@ -1,7 +1,7 @@
 {
   "name": "@alex-grover/biome-config",
   "description": "A shareable Biome configuration.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "exports": {
     ".": "./index.json"

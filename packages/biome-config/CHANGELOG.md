@@ -1,5 +1,11 @@
 # @alex-grover/biome-config
 
+## 0.0.3
+
+### Patch Changes
+
+- 9c6c1b2: Add unused import and variable + react rules
+
 ## 0.0.2
 
 ### Patch Changes
