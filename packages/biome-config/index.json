@@ -1,5 +1,5 @@
 {
-  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.2.4/schema.json",
   "root": false,
   "vcs": {
     "enabled": true,
@@ -27,10 +27,12 @@
       "recommended": true,
       "correctness": {
         "noUnusedImports": {
-          "level": "error"
+          "level": "error",
+          "options": {}
         },
         "noUnusedVariables": {
-          "level": "error"
+          "level": "error",
+          "options": {}
         }
       }
     }
@@ -59,7 +61,8 @@
         "rules": {
           "correctness": {
             "useHookAtTopLevel": {
-              "level": "error"
+              "level": "error",
+              "options": {}
             }
           }
         }

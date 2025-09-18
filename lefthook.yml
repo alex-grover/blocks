@@ -1,5 +1,5 @@
 pre-commit:
   commands:
     check:
-      run: bun run pre-commit {staged_files}
+      run: bun run prettier --write --ignore-unknown {staged_files}
       stage_fixed: true

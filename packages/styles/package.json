@@ -1,13 +1,16 @@
 {
   "name": "@alex-grover/styles",
-  "version": "0.0.1",
   "description": "Opinionated base stylesheets.",
   "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alex-grover/blocks.git",
     "directory": "packages/styles"
   },
-  "license": "ISC",
-  "keywords": ["css", "css-reset"]
+  "version": "0.0.1",
+  "keywords": [
+    "css",
+    "css-reset"
+  ]
 }

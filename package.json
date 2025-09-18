@@ -1,22 +1,28 @@
 {
   "name": "blocks",
-  "private": true,
   "description": "A set of building blocks for Typescript projects.",
+  "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
+  "license": "ISC",
+  "keywords": [
+    "typescript",
+    "monorepo",
+    "bun"
+  ],
+  "private": true,
   "scripts": {
-    "check": "biome check .",
-    "fix": "biome check --write .",
-    "pre-commit": "biome check --write --no-errors-on-unmatched --colors=off",
-    "ci": "biome ci .",
+    "check:format": "prettier .",
+    "fix:format": "prettier --write .",
     "version": "changeset version && bun fix",
     "publish": "changeset publish"
   },
-  "keywords": ["typescript", "monorepo", "bun"],
-  "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
-  "license": "ISC",
   "devDependencies": {
-    "@biomejs/biome": "2.2.4",
+    "@alex-grover/prettier-config": "workspace:*",
     "@changesets/cli": "^2.29.7",
-    "lefthook": "^1.13.1"
+    "lefthook": "^1.13.1",
+    "prettier": "3.6.2"
   },
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ],
+  "prettier": "@alex-grover/prettier-config"
 }

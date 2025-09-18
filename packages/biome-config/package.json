@@ -1,22 +1,22 @@
 {
   "name": "@alex-grover/biome-config",
   "description": "A shareable Biome configuration.",
-  "version": "0.0.3",
-  "type": "module",
-  "exports": {
-    ".": "./index.json"
-  },
   "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alex-grover/blocks.git",
     "directory": "packages/biome-config"
   },
-  "license": "ISC",
   "keywords": [
     "biome",
     "biome-config"
   ],
+  "version": "0.0.3",
+  "type": "module",
+  "exports": {
+    ".": "./index.json"
+  },
   "devDependencies": {
     "@biomejs/biome": "2.2.4"
   },
