@@ -13,11 +13,14 @@
     "directory": "packages/biome-config"
   },
   "license": "ISC",
-  "keywords": ["biome", "biome-config"],
+  "keywords": [
+    "biome",
+    "biome-config"
+  ],
   "devDependencies": {
-    "@biomejs/biome": "1.9.3"
+    "@biomejs/biome": "2.2.4"
   },
   "peerDependencies": {
-    "@biomejs/biome": "^1.9.3"
+    "@biomejs/biome": "^2.2.4"
   }
 }
