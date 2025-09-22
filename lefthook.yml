@@ -1,5 +1,7 @@
 pre-commit:
-  commands:
-    check:
-      run: bun run prettier --write --ignore-unknown {staged_files}
+  jobs:
+    - run: bun run stylelint --fix {staged_files}
+      glob: '*.css'
+      stage_fixed: true
+    - run: bun run prettier --write --ignore-unknown {staged_files}
       stage_fixed: true
