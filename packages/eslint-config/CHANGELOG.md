@@ -1,5 +1,11 @@
 # @alex-grover/eslint-config
 
+## 0.0.7
+
+### Patch Changes
+
+- 079adfe: Bring back prettier, eslint, stylelint, and add result
+
 ## 0.0.6
 
 ### Patch Changes

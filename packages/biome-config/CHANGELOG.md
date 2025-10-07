@@ -1,5 +1,12 @@
 # @alex-grover/biome-config
 
+## 0.0.4
+
+### Patch Changes
+
+- 079adfe: Bring back prettier, eslint, stylelint, and add result
+- 1d80ae3: Upgrade to Biome 2
+
 ## 0.0.3
 
 ### Patch Changes
