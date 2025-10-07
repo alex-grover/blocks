@@ -15,12 +15,11 @@
   "version": "0.0.6",
   "main": "index.json",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "*",
-    "@typescript-eslint/parser": "*",
-    "eslint": ">8",
+    "@eslint/js": "*",
+    "eslint": ">=9.0.0",
     "eslint-config-prettier": "*",
-    "eslint-import-resolver-typescript": "*",
     "eslint-plugin-css-modules": "*",
-    "eslint-plugin-import": "*"
+    "eslint-plugin-import": "*",
+    "typescript-eslint": "*"
   }
 }
