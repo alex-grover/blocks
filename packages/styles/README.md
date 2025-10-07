@@ -4,11 +4,11 @@ Opinionated base stylesheets.
 
 ## Installation
 
-To install in a Next.js project, including replacing the builtin PostCSS config:
+To install in a Next.js project (replaces the builtin PostCSS config):
 
 ```sh
 bun install @alex-grover/styles
-bun install --dev postcss-flexbugs-fixes postcss-preset-env @csstools/postcss-global-data
+bun install --dev postcss-preset-env @csstools/postcss-global-data
 ```
 
 ## Usage
@@ -25,7 +25,6 @@ Add the following entry to your `package.json`:
           "files": ["node_modules/@alex-grover/styles/media.css"]
         }
       ],
-      "postcss-flexbugs-fixes",
       [
         "postcss-preset-env",
         {
