@@ -1,0 +1,20 @@
+{
+  "name": "@alex-grover/prettier-config",
+  "description": "A shareable Prettier configuration.",
+  "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-grover/blocks.git",
+    "directory": "packages/prettier-config"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "version": "0.0.2",
+  "main": "index.json",
+  "peerDependencies": {
+    "prettier": "*"
+  }
+}

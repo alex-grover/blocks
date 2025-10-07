@@ -1,22 +1,38 @@
 {
   "name": "blocks",
-  "private": true,
   "description": "A set of building blocks for Typescript projects.",
-  "scripts": {
-    "check": "biome check .",
-    "fix": "biome check --write .",
-    "pre-commit": "biome check --write --no-errors-on-unmatched --colors=off",
-    "ci": "biome ci .",
-    "version": "changeset version && bun fix",
-    "publish": "changeset publish"
-  },
-  "keywords": ["typescript", "monorepo", "bun"],
   "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
   "license": "ISC",
-  "devDependencies": {
-    "@biomejs/biome": "1.9.3",
-    "@changesets/cli": "^2.27.9",
-    "lefthook": "^1.7.18"
+  "keywords": [
+    "typescript",
+    "monorepo",
+    "bun"
+  ],
+  "private": true,
+  "scripts": {
+    "check:format": "prettier --check .",
+    "fix:format": "prettier --write .",
+    "check:styles": "stylelint ./**/*.css",
+    "fix:styles": "stylelint --fix ./**/*.css",
+    "version": "changeset version && bun fix:format",
+    "publish": "changeset publish"
   },
-  "workspaces": ["packages/*"]
+  "devDependencies": {
+    "@alex-grover/prettier-config": "workspace:*",
+    "@alex-grover/stylelint-config": "workspace:^",
+    "@changesets/cli": "^2.29.7",
+    "lefthook": "^1.13.1",
+    "prettier": "3.6.2",
+    "stylelint": "^16.24.0",
+    "stylelint-config-css-modules": "^4.5.1",
+    "stylelint-config-recess-order": "^7.3.0",
+    "stylelint-config-standard": "^39.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "prettier": "@alex-grover/prettier-config",
+  "stylelint": {
+    "extends": "@alex-grover/stylelint-config"
+  }
 }

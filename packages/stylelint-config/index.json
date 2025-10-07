@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/stylelintrc",
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-css-modules",
+    "stylelint-config-recess-order"
+  ],
+  "plugins": ["stylelint-gamut"],
+  "rules": {
+    "color-function-notation": "modern",
+    "color-no-hex": true,
+    "function-disallowed-list": ["rgba", "hsla", "rgb", "hsl"],
+    "gamut/color-no-out-gamut-range": true
+  }
+}
