@@ -20,6 +20,7 @@ export default defineConfig([
   cssModules.configs.recommended,
   {
     rules: {
+      'no-restricted-syntax': ['error', 'ThrowStatement'],
       'import/order': [
         'error',
         {
