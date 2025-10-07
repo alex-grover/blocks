@@ -17,9 +17,6 @@
   "exports": {
     ".": "./index.json"
   },
-  "devDependencies": {
-    "@biomejs/biome": "2.2.4"
-  },
   "peerDependencies": {
     "@biomejs/biome": "^2.2.4"
   }

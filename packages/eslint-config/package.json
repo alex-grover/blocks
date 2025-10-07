@@ -1,0 +1,26 @@
+{
+  "name": "@alex-grover/eslint-config",
+  "description": "A shareable ESLint configuration.",
+  "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-grover/blocks.git",
+    "directory": "packages/eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "version": "0.0.6",
+  "main": "index.json",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": ">8",
+    "eslint-config-prettier": "*",
+    "eslint-import-resolver-typescript": "*",
+    "eslint-plugin-css-modules": "*",
+    "eslint-plugin-import": "*"
+  }
+}
