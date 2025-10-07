@@ -13,6 +13,7 @@
     "stylelint": "*",
     "stylelint-config-css-modules": "*",
     "stylelint-config-recess-order": "*",
-    "stylelint-config-standard": "*"
+    "stylelint-config-standard": "*",
+    "stylelint-gamut": "*"
   }
 }
