@@ -10,11 +10,11 @@
   ],
   "private": true,
   "scripts": {
-    "check:format": "prettier .",
+    "check:format": "prettier --check .",
     "fix:format": "prettier --write .",
     "check:styles": "stylelint ./**/*.css",
     "fix:styles": "stylelint --fix ./**/*.css",
-    "version": "changeset version && bun fix",
+    "version": "changeset version && bun fix:format",
     "publish": "changeset publish"
   },
   "devDependencies": {
