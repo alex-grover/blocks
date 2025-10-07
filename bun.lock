@@ -17,14 +17,14 @@
     },
     "packages/biome-config": {
       "name": "@alex-grover/biome-config",
-      "version": "0.0.3",
+      "version": "0.0.4",
       "peerDependencies": {
         "@biomejs/biome": "^2.2.4",
       },
     },
     "packages/eslint-config": {
       "name": "@alex-grover/eslint-config",
-      "version": "0.0.6",
+      "version": "0.0.7",
       "peerDependencies": {
         "@eslint/js": "*",
         "eslint": ">=9.0.0",
@@ -36,29 +36,29 @@
     },
     "packages/prettier-config": {
       "name": "@alex-grover/prettier-config",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "peerDependencies": {
         "prettier": "*",
       },
     },
     "packages/result": {
       "name": "@alex-grover/result",
-      "version": "0.0.0",
+      "version": "0.0.1",
     },
     "packages/stylelint-config": {
       "name": "@alex-grover/stylelint-config",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "peerDependencies": {
         "stylelint": "*",
         "stylelint-config-css-modules": "*",
         "stylelint-config-recess-order": "*",
         "stylelint-config-standard": "*",
-        "stylelint-gamut": "^1.3.4",
+        "stylelint-gamut": "*",
       },
     },
     "packages/styles": {
       "name": "@alex-grover/styles",
-      "version": "0.0.1",
+      "version": "0.0.2",
     },
   },
   "packages": {
