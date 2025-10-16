@@ -24,13 +24,20 @@
     },
     "packages/eslint-config": {
       "name": "@alex-grover/eslint-config",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "peerDependencies": {
         "@eslint/js": "*",
         "eslint": ">=9.0.0",
         "eslint-config-prettier": "*",
         "eslint-plugin-import": "*",
         "typescript-eslint": "*",
+      },
+    },
+    "packages/lefthook-config": {
+      "name": "@alex-grover/lefthook-config",
+      "version": "0.0.0",
+      "peerDependencies": {
+        "lefthook": "*",
       },
     },
     "packages/prettier-config": {
@@ -46,7 +53,7 @@
     },
     "packages/stylelint-config": {
       "name": "@alex-grover/stylelint-config",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "peerDependencies": {
         "stylelint": "*",
         "stylelint-config-css-modules": "*",
@@ -65,6 +72,8 @@
     "@alex-grover/biome-config": ["@alex-grover/biome-config@workspace:packages/biome-config"],
 
     "@alex-grover/eslint-config": ["@alex-grover/eslint-config@workspace:packages/eslint-config"],
+
+    "@alex-grover/lefthook-config": ["@alex-grover/lefthook-config@workspace:packages/lefthook-config"],
 
     "@alex-grover/prettier-config": ["@alex-grover/prettier-config@workspace:packages/prettier-config"],
 

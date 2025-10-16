@@ -10,10 +10,14 @@ bun install --dev stylelint @alex-grover/stylelint-config stylelint-config-stand
 
 ## Usage
 
-Add the following entry to your `package.json`:
+Add the following entries to your `package.json`:
 
 ```json
 {
+  "scripts": {
+    "check:styles": "stylelint ./**/*.css --cache --cache-location node_modules/.cache",
+    "fix:styles": "stylelint ./**/*.css --fix --cache --cache-location node_modules/.cache"
+  },
   "stylelint": {
     "extends": "@alex-grover/stylelint-config"
   }

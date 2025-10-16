@@ -1,0 +1,20 @@
+{
+  "name": "@alex-grover/lefthook-config",
+  "description": "A Lefthook configuration for ESLint, Prettier, and Stylelint.",
+  "author": "Alex Grover <hello@alexgrover.me> (https://alexgrover.me)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-grover/blocks.git",
+    "directory": "packages/lefthook-config"
+  },
+  "keywords": [
+    "lefthook",
+    "lefthook-config"
+  ],
+  "version": "0.0.0",
+  "main": "config.yml",
+  "peerDependencies": {
+    "lefthook": "*"
+  }
+}

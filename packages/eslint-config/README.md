@@ -5,10 +5,19 @@ A shareable [ESLint](https://eslint.org) configuration.
 ## Installation
 
 ```sh
-bun install --dev eslint @alex-grover/eslint-config @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-import eslint-import-resolver-typescript eslint-plugin-css-modules
+bun install --dev eslint @alex-grover/eslint-config @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-import eslint-import-resolver-typescript
 ```
 
 ## Usage
+
+Add the following scripts to your `package.json`:
+
+```json
+{
+  "check:lint": "eslint --cache --cache-location node_modules/.cache",
+  "fix:lint": "eslint --fix --cache --cache-location node_modules/.cache"
+}
+```
 
 Add the following entry to your `eslint.config.ts`:
 
