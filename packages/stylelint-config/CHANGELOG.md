@@ -1,5 +1,11 @@
 # @alex-grover/stylelint-config
 
+## 0.0.3
+
+### Patch Changes
+
+- 380daad: Add `stylelint-plugin-use-baseline`
+
 ## 0.0.2
 
 ### Patch Changes

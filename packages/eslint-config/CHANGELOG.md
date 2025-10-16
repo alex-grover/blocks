@@ -1,5 +1,11 @@
 # @alex-grover/eslint-config
 
+## 0.0.8
+
+### Patch Changes
+
+- 67ca430: Remove `eslint-plugin-css-modules`
+
 ## 0.0.7
 
 ### Patch Changes
