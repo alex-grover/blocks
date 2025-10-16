@@ -10,10 +10,10 @@
   ],
   "private": true,
   "scripts": {
-    "check:format": "prettier --check .",
-    "fix:format": "prettier --write .",
-    "check:styles": "stylelint ./**/*.css",
-    "fix:styles": "stylelint --fix ./**/*.css",
+    "check:format": "prettier . --check --cache",
+    "fix:format": "prettier . --write --cache",
+    "check:styles": "stylelint ./**/*.css --cache --cache-location node_modules/.cache",
+    "fix:styles": "stylelint ./**/*.css --fix --cache --cache-location node_modules/.cache",
     "version": "changeset version && bun fix:format",
     "publish": "changeset publish"
   },
