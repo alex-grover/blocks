@@ -24,7 +24,7 @@
     },
     "packages/eslint-config": {
       "name": "@alex-grover/eslint-config",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "peerDependencies": {
         "@eslint/js": "*",
         "eslint": ">=9.0.0",
@@ -46,7 +46,7 @@
     },
     "packages/stylelint-config": {
       "name": "@alex-grover/stylelint-config",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "peerDependencies": {
         "stylelint": "*",
         "stylelint-config-css-modules": "*",
