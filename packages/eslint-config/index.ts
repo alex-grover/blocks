@@ -9,6 +9,14 @@ export default defineConfig([
   tseslint.configs.strictTypeChecked,
   tseslint.configs.stylisticTypeChecked,
   {
+    rules: {
+      '@typescript-eslint/dot-notation': [
+        'error',
+        { allowIndexSignaturePropertyAccess: true },
+      ],
+    },
+  },
+  {
     languageOptions: {
       parserOptions: {
         projectService: true,

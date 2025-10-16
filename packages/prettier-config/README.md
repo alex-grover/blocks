@@ -15,8 +15,9 @@ Add the following entries to your `package.json`:
 ```json
 {
   "scripts": {
-    "check:format": "prettier . --check --cache",
-    "fix:format": "prettier . --write --cache"
+    "format": "prettier --cache",
+    "check:format": "bun run format --check .",
+    "fix:format": "bun run format --write ."
   },
   "prettier": "@alex-grover/prettier-config"
 }

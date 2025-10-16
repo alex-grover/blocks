@@ -15,8 +15,9 @@ Add the following entries to your `package.json`:
 ```json
 {
   "scripts": {
-    "check:styles": "stylelint ./**/*.css --cache --cache-location node_modules/.cache",
-    "fix:styles": "stylelint ./**/*.css --fix --cache --cache-location node_modules/.cache"
+    "styles": "stylelint --cache --cache-location node_modules/.cache",
+    "check:styles": "bun run styles ./**/*.css",
+    "fix:styles": "bun run check:styles --fix"
   },
   "stylelint": {
     "extends": "@alex-grover/stylelint-config"
