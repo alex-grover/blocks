@@ -1,5 +1,11 @@
 # @alex-grover/prettier-config
 
+## 0.0.6
+
+### Patch Changes
+
+- bb18d49: Use fix in pre-commit
+
 ## 0.0.5
 
 ### Patch Changes
