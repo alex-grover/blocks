@@ -12,5 +12,21 @@
     "result"
   ],
   "version": "0.0.1",
-  "main": "index.ts"
+  "main": "index.ts",
+  "scripts": {
+    "lint": "eslint --cache --cache-location node_modules/.cache",
+    "check:lint": "bun run lint .",
+    "fix:lint": "bun run check:lint --fix",
+    "check:types": "tsc"
+  },
+  "devDependencies": {
+    "@alex-grover/eslint-config": "workspace:*",
+    "@tsconfig/strictest": "^2.0.6",
+    "@typescript-eslint/eslint-plugin": "^8.46.1",
+    "@typescript-eslint/parser": "^8.46.1",
+    "eslint": "^9.37.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0"
+  }
 }
