@@ -1,5 +1,11 @@
 # @alex-grover/lefthook-config
 
+## 0.0.3
+
+### Patch Changes
+
+- e682897: Add eslint cache location
+
 ## 0.0.2
 
 ### Patch Changes
