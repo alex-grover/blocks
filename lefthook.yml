@@ -1,2 +1,7 @@
 extends:
   - packages/lefthook-config/config.yml
+
+pre-commit:
+  jobs:
+    - run: bun run fix:lint
+      stage_fixed: true

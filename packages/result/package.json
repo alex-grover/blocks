@@ -15,7 +15,7 @@
   "main": "index.ts",
   "scripts": {
     "lint": "eslint --cache --cache-location node_modules/.cache",
-    "check:lint": "bun run lint .",
+    "check:lint": "bun run --bun lint .",
     "fix:lint": "bun run check:lint --fix",
     "check:types": "tsc"
   },
