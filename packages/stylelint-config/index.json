@@ -9,8 +9,16 @@
   "rules": {
     "color-function-notation": "modern",
     "color-no-hex": true,
+    "declaration-property-value-no-unknown": [
+      true,
+      {
+        "ignoreProperties": {
+          "color": ["/light-dark.+/"]
+        }
+      }
+    ],
     "function-disallowed-list": ["rgba", "hsla", "rgb", "hsl"],
     "gamut/color-no-out-gamut-range": true,
-    "plugin/use-baseline": true
+    "plugin/use-baseline": [true, { "available": 2024 }]
   }
 }
