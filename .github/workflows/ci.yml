@@ -14,5 +14,5 @@ jobs:
       - run: bun ci
       - run: bun run check:lint
       - run: bun run check:styles
-      - run: bun run check:format
+      - run: bun run check:format --cache-location .prettier-cache # prettier errors in CI without this
       - run: bun run check:types
