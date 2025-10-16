@@ -1,5 +1,11 @@
 # @alex-grover/stylelint-config
 
+## 0.0.5
+
+### Patch Changes
+
+- bea7ab4: Use modern CSS
+
 ## 0.0.4
 
 ### Patch Changes
