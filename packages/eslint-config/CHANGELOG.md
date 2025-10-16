@@ -1,5 +1,12 @@
 # @alex-grover/eslint-config
 
+## 0.0.10
+
+### Patch Changes
+
+- d261b84: Allow bracket access for index signatures
+- 23836b0: Update scripts and lefthook config
+
 ## 0.0.9
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @alex-grover/prettier-config
 
+## 0.0.5
+
+### Patch Changes
+
+- 23836b0: Update scripts and lefthook config
+
 ## 0.0.4
 
 ### Patch Changes

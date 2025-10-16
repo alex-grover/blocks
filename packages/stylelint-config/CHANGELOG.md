@@ -1,5 +1,11 @@
 # @alex-grover/stylelint-config
 
+## 0.0.6
+
+### Patch Changes
+
+- 23836b0: Update scripts and lefthook config
+
 ## 0.0.5
 
 ### Patch Changes
