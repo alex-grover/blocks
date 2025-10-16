@@ -1,7 +1,6 @@
 import js from '@eslint/js'
 import { defineConfig } from 'eslint/config'
 import importPlugin from 'eslint-plugin-import'
-import cssModules from 'eslint-plugin-css-modules'
 import eslintConfigPrettier from 'eslint-config-prettier/flat'
 import tseslint from 'typescript-eslint'
 
@@ -17,7 +16,6 @@ export default defineConfig([
     },
   },
   importPlugin.flatConfigs.recommended,
-  cssModules.configs.recommended,
   {
     rules: {
       'no-restricted-syntax': ['error', 'ThrowStatement'],

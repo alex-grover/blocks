@@ -5,11 +5,12 @@
     "stylelint-config-css-modules",
     "stylelint-config-recess-order"
   ],
-  "plugins": ["stylelint-gamut"],
+  "plugins": ["stylelint-gamut", "stylelint-plugin-use-baseline"],
   "rules": {
     "color-function-notation": "modern",
     "color-no-hex": true,
     "function-disallowed-list": ["rgba", "hsla", "rgb", "hsl"],
-    "gamut/color-no-out-gamut-range": true
+    "gamut/color-no-out-gamut-range": true,
+    "plugin/use-baseline": true
   }
 }
