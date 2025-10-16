@@ -14,8 +14,9 @@ Add the following scripts to your `package.json`:
 
 ```json
 {
-  "check:lint": "eslint --cache --cache-location node_modules/.cache",
-  "fix:lint": "eslint --fix --cache --cache-location node_modules/.cache"
+  "lint": "eslint --cache --cache-location node_modules/.cache",
+  "check:lint": "bun run lint .",
+  "fix:lint": "bun run check:lint --fix"
 }
 ```
 

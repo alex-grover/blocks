@@ -3,11 +3,11 @@ pre-commit:
     - group:
         parallel: true
         jobs:
-          - run: bun run eslint {staged_files} --fix --cache --cache-location node_modules/.cache
+          - run: bun run --if-present lint {staged_files}
             glob: '*.{js,ts,tsx}'
             stage_fixed: true
-          - run: bun run stylelint {staged_files} --fix --cache --cache-location node_modules/.cache
+          - run: bun run --if-present styles {staged_files}
             glob: '*.css'
             stage_fixed: true
-    - run: bun run prettier {staged_files} --write --cache --ignore-unknown
+    - run: bun run --if-present format --check {staged_files}
       stage_fixed: true
