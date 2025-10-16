@@ -3,7 +3,7 @@ pre-commit:
     - group:
         parallel: true
         jobs:
-          - run: bun run eslint {staged_files} --fix --cache
+          - run: bun run eslint {staged_files} --fix --cache --cache-location node_modules/.cache
             glob: '*.{js,ts,tsx}'
             stage_fixed: true
           - run: bun run stylelint {staged_files} --fix --cache --cache-location node_modules/.cache
