@@ -9,19 +9,23 @@
     "bun"
   ],
   "private": true,
+  "packageManager": "bun@1.2.3",
   "scripts": {
-    "format": "prettier --cache",
+    "format": "prettier --cache --ignore-unknown",
     "check:format": "bun run format --check .",
     "fix:format": "bun run format --write .",
     "styles": "stylelint --cache --cache-location node_modules/.cache",
     "check:styles": "bun run styles ./**/*.css",
     "fix:styles": "bun run check:styles --fix",
+    "check:lint": "bun run --workspaces check:lint",
+    "fix:lint": "bun run --workspaces fix:lint",
+    "check:types": "bun run --workspaces check:types",
     "version": "changeset version && bun fix:format",
     "publish": "changeset publish"
   },
   "devDependencies": {
     "@alex-grover/prettier-config": "workspace:*",
-    "@alex-grover/stylelint-config": "workspace:^",
+    "@alex-grover/stylelint-config": "workspace:*",
     "@changesets/cli": "^2.29.7",
     "lefthook": "^1.13.1",
     "prettier": "3.6.2",

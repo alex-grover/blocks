@@ -3,11 +3,16 @@ pre-commit:
     - group:
         parallel: true
         jobs:
-          - run: bun run --if-present lint {staged_files}
-            glob: '*.{js,ts,tsx}'
+          - group:
+              parallel: true
+              jobs:
+                - run: bun run --if-present lint --fix {staged_files}
+                  glob: '*.{js,ts,tsx}'
+                  stage_fixed: true
+                - run: bun run --if-present styles --fix {staged_files}
+                  glob: '*.css'
+                  stage_fixed: true
+          - run: bun run --if-present format --write {staged_files}
             stage_fixed: true
-          - run: bun run --if-present styles {staged_files}
-            glob: '*.css'
-            stage_fixed: true
-    - run: bun run --if-present format --check {staged_files}
-      stage_fixed: true
+    - run: bun run --if-present check:types
+      glob: '*.{ts,tsx,json}'
