@@ -18,7 +18,6 @@
     "@eslint/js": "*",
     "eslint": ">=9.0.0",
     "eslint-config-prettier": "*",
-    "eslint-plugin-css-modules": "*",
     "eslint-plugin-import": "*",
     "typescript-eslint": "*"
   }
