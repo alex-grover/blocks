@@ -1,5 +1,11 @@
 # @alex-grover/eslint-config
 
+## 0.0.9
+
+### Patch Changes
+
+- 2b8d97e: Fix lefthook staging and glob, update READMEs
+
 ## 0.0.8
 
 ### Patch Changes
