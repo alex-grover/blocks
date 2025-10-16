@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: oven-sh/setup-bun@v2
-      - run: bun install
+      - run: bun ci
       - run: bun run check:lint
       - run: bun run check:styles
       - run: bun run check:format
