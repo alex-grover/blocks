@@ -10,6 +10,15 @@ bun install --dev eslint @alex-grover/eslint-config @typescript-eslint/eslint-pl
 
 ## Usage
 
+Add the following scripts to your `package.json`:
+
+```json
+{
+  "check:lint": "eslint --cache --cache-location node_modules/.cache",
+  "fix:lint": "eslint --fix --cache --cache-location node_modules/.cache"
+}
+```
+
 Add the following entry to your `eslint.config.ts`:
 
 ```ts
