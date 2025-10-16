@@ -1,5 +1,12 @@
 # @alex-grover/stylelint-config
 
+## 0.0.4
+
+### Patch Changes
+
+- 80cb7aa: Update peer deps in README
+- 2b8d97e: Fix lefthook staging and glob, update READMEs
+
 ## 0.0.3
 
 ### Patch Changes

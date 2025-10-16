@@ -12,7 +12,7 @@
     "prettier",
     "prettier-config"
   ],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.json",
   "peerDependencies": {
     "prettier": "*"
