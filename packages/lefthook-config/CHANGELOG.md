@@ -1,5 +1,11 @@
 # @alex-grover/lefthook-config
 
+## 0.0.5
+
+### Patch Changes
+
+- bb18d49: Use fix in pre-commit
+
 ## 0.0.4
 
 ### Patch Changes
