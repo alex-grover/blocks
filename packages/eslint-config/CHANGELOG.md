@@ -1,5 +1,11 @@
 # @alex-grover/eslint-config
 
+## 0.0.11
+
+### Patch Changes
+
+- 21d7756: Add consistent type import/export rules
+
 ## 0.0.10
 
 ### Patch Changes
