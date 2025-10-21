@@ -14,6 +14,9 @@ export default defineConfig([
         'error',
         { allowIndexSignaturePropertyAccess: true },
       ],
+      '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+      '@typescript-eslint/consistent-type-exports': 'error',
+      '@typescript-eslint/consistent-type-imports': 'error',
     },
   },
   {
@@ -24,6 +27,7 @@ export default defineConfig([
     },
   },
   importPlugin.flatConfigs.recommended,
+  importPlugin.flatConfigs.typescript,
   {
     rules: {
       'no-restricted-syntax': ['error', 'ThrowStatement'],
@@ -44,13 +48,6 @@ export default defineConfig([
           'newlines-between': 'never',
         },
       ],
-    },
-  },
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [importPlugin.flatConfigs.typescript],
-    rules: {
-      '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
     },
   },
   eslintConfigPrettier,
