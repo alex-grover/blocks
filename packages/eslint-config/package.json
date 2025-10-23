@@ -26,8 +26,12 @@
     "@typescript-eslint/parser": "*",
     "eslint": ">=9.0.0",
     "eslint-config-prettier": "*",
+    "eslint-import-resolver-typescript": "*",
     "eslint-plugin-import": "*",
-    "typescript-eslint": "*",
-    "eslint-import-resolver-typescript": "*"
+    "eslint-plugin-unused-imports": "*",
+    "typescript-eslint": "*"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.6"
   }
 }
