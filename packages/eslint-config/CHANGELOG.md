@@ -1,5 +1,11 @@
 # @alex-grover/eslint-config
 
+## 0.0.12
+
+### Patch Changes
+
+- 05c8ecb: Add `eslint-plugin-unused-imports`
+
 ## 0.0.11
 
 ### Patch Changes
