@@ -5,7 +5,7 @@ A shareable [ESLint](https://eslint.org) configuration.
 ## Installation
 
 ```sh
-bun install --dev eslint @alex-grover/eslint-config @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-import eslint-import-resolver-typescript
+bun install --dev eslint @alex-grover/eslint-config @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-import eslint-import-resolver-typescript eslint-plugin-unused-imports
 ```
 
 ## Usage

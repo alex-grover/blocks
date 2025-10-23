@@ -14,11 +14,20 @@
   ],
   "version": "0.0.11",
   "main": "index.ts",
+  "scripts": {
+    "lint": "eslint --cache --cache-location node_modules/.cache --config index.ts",
+    "check:lint": "bun run --bun lint .",
+    "fix:lint": "bun run check:lint --fix",
+    "check:types": "tsc"
+  },
   "peerDependencies": {
     "@eslint/js": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
     "eslint": ">=9.0.0",
     "eslint-config-prettier": "*",
     "eslint-plugin-import": "*",
-    "typescript-eslint": "*"
+    "typescript-eslint": "*",
+    "eslint-import-resolver-typescript": "*"
   }
 }
