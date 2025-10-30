@@ -43,9 +43,13 @@ Add the following entry to your `package.json`:
 }
 ```
 
-Import `reset.css` from your root layout:
+Import `reset.css` from your root layout or global CSS file:
 
 ```tsx
 // app/layout.tsx
 import '@alex-grover/styles/reset.css'
+```
+
+```css
+@import '@alex-grover/styles/reset.css' layer(reset);
 ```
